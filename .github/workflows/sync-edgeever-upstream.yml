@@ -411,3 +411,4 @@ jobs:
               --title "${title}" \
               --body "The daily update from \`${UPSTREAM_REPOSITORY}\` (${TARGET_REF}) could not be aligned or verified. The current production deployment was left unchanged. Open the failed **Update deployed EdgeEver** workflow run for details (see the job summary for channel/target/reason), then retry it manually after resolving the problem."
           fi
+# fork-deploy: touched to let GitHub Actions register this workflow in the fork
